@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+body {
+    background: hsl(162, 43%, 30%);
+    font-family: "Comic Sans MS", serif;
+}
+.navigation-link{
+    border: 2px solid transparent;
+}
+.navigation-link:hover{
+    text-decoration: none;
+    border-bottom: 2px solid #68d9a9;
+    transition: 0.5s ease;
+}
+.main-container{
+    min-height: 100vh;
+    padding-top: 5rem;
+}
+.main_row{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main_row img{
+    width: auto;
+    height: 30rem;
+}
+#about{
+    background:hsl(162, 44%, 44%);
+    border-radius: 0.5rem;
+}
+.card{
+    border-bottom: 8px solid hsl(162, 48%, 51%);
+}
+#siga-me{
+    background:hsl(162, 44%, 44%);
+    border-radius: 0.5rem;
+}
+.media-link{
+    padding: 1rem;
+    max-width: 15rem;
+    margin-left: 1rem;
+    border: 2px solid hsl(162, 48%, 51%);
+    border-radius: 0.5rem;
+}
